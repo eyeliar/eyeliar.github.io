@@ -1,0 +1,27 @@
+.logo {
+    font-size: 200%;
+    padding: 50px 20px;
+    margin: 0 auto;
+    max-width: 980px;
+  }
+
+  nav {
+    background-color: #000;
+    padding: 10px;
+  }
+
+  body {
+    margin: 1;
+    font: 1.2 Helvetica;
+  }
+
+  main {
+    text-align: center;
+  }
+  
+  img {
+    width: 38%;
+    height: 38%;
+    object-fit:relative;
+  }
+
