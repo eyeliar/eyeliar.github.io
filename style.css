@@ -1,0 +1,100 @@
+body {
+    background-image: url("images/Peshay.png");
+    margin: 1px;
+    font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+    box: 4px 4px 4px rgb(255, 252, 252);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  img {
+      max-width: 100%;
+      display: block;
+  }
+  
+  .logo {
+    color: rgb(255, 255, 255);
+    font-size: 200%;
+    padding: 50px 20px;
+    margin: 0 auto;
+    max-width: 980px;
+    background-image: url("images/Ev.jpg");
+    background-size: 100% 100%;
+  }
+  
+  .grid {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 980px;
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  nav {
+    background-color: #000;
+    padding: .5em;
+    position: sticky;
+    top: 0;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+  
+  .photos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-gap: 1px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .feature {
+      width: 200px;
+      float: left;
+      margin: 10px 10px;
+  }
+
+  h1 {
+    font-family: helvetica, arial, sans-serif;
+    text-align: center;
+  }
+  
+  body {
+    width: 800px;
+    margin: 0 auto;
+  }
+  
+  .full-img {
+    position: relative;
+    display: block;
+    width: 800px;
+    height: 580px;
+  }
+  
+
+  .thumb-bar img {
+    display: block;
+    width: 20%;
+    float: left;
+    cursor: pointer;
+  }
+
+  div {
+    border: 20px black;
+    padding: 10px;
+    background: rgb(247, 247, 247);
+    background-clip: padding-box;
+  }
